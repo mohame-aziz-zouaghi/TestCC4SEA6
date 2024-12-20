@@ -1,0 +1,16 @@
+<form (ngSubmit)="addAlbum()">
+    <label>
+      Title:
+      <input [(ngModel)]="album.title" name="title" required />
+    </label>
+    <label>
+      photos:
+      <input [(ngModel)]="album.photos" name="photos" required />
+    </label>
+    <label>
+      Cover Picture:
+      <input [(ngModel)]="album.coverPicture" name="coverPicture" />
+    </label>
+    <button type="submit">Add Album </button>
+  </form>
+  
